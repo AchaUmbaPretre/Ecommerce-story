@@ -1,0 +1,60 @@
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0;
+    max-width: 1200px;
+    margin: 0  auto;
+    .top-left{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        .top-items{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            .top-logo-img{
+                height: 15px;
+                width: 25px;
+            }
+            a{
+                font-size: 13px;
+            }
+            .down{
+                font-size: 13px;
+            }
+        }
+        
+    }
+    .top-center{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .top-center-h2{
+            font-weight: 300;
+        }
+    }
+    .top-right{
+        flex: 2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .top-items{
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            a{
+                font-size: 13px;
+            }
+        }
+        .top-items{
+            font-size: 14px;
+            i{
+                cursor: pointer;
+            }
+        }
+
+    }
+}

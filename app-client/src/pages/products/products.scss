@@ -1,0 +1,30 @@
+.products{
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    padding: 45px;
+    label{
+        font-size: 13px;
+        color: rgb(77, 73, 73);
+    }
+    .productsLeft{
+        flex: 2;
+
+        .productsItems{
+            flex: 2;
+            padding-bottom: 20px;
+            h3{
+                font-size: 15px;
+                padding-bottom: 20px;
+            }
+            .productsRowItems{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+    }
+    .productsRight{
+        flex: 4;
+    }
+}

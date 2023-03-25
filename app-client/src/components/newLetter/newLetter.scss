@@ -1,0 +1,38 @@
+.newLetter{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(41, 41, 182);
+    color: white;
+    .newLetterCont{
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 0 auto;
+        h3{
+            font-size: 13px;
+        }
+        .newLetterSearch{
+            display: flex;
+            align-items: center;
+            input{
+                border: none;
+                padding: 5px 10px;
+            }
+            button{
+                background: rgb(29, 22, 22);
+                color: white;
+                padding: 5px 10px;
+                font-size: 11px;
+                cursor: pointer;
+            }
+        }
+        .newLetterIcons{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
